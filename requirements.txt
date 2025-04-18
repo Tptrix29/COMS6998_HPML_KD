@@ -1,0 +1,8 @@
+torch
+datasets
+pytorch-lightning 
+transformers 
+datasets 
+wandb 
+flash-attn 
+vllm[triton]

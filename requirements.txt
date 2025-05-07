@@ -1,8 +1,11 @@
+nltk
 torch
+accelerate 
+transformers
 datasets
-pytorch-lightning 
-transformers 
-datasets 
+evaluate
+datasets
+pytorch-lightning  
 wandb 
 flash-attn 
 vllm[triton]

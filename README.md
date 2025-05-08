@@ -49,5 +49,14 @@ Knowledge Distillation on different tasks:
 ### Results
 View it in our W&B report: [wandb report](https://wandb.ai/tptrix29/KD-COMS6998/reports/KD-on-Summarization--VmlldzoxMjYyMDI2NQ)
 
-### W&B Board
-Project Link: [Click Here](https://wandb.ai/tptrix29/KD-COMS6998)
+### Deliverables
+**W&B Board Project Link:** 
+- [Classification](https://wandb.ai/tptrix29/bert-distillation)
+- [Language Modeling](https://wandb.ai/tptrix29/lm-kd)
+- [Summarization Runs](https://wandb.ai/tptrix29/KD-COMS6998)
+
+**Model Checkpoints:**
+Model checkpoints are saved in Google Drive: 
+- [Classification](https://drive.google.com/drive/folders/11bVns4xDc_WU0kJYzERCw7IpE44AvsWs?usp=sharing)
+- [Language Modeling](https://drive.google.com/drive/folders/11bVns4xDc_WU0kJYzERCw7IpE44AvsWs?usp=sharing)
+- [Summarization](https://drive.google.com/drive/u/0/folders/1ss29ZTFx-NL6W-6-mECs1N45H2Q5d7-X)

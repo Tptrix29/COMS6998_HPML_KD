@@ -1,6 +1,6 @@
 # COMS6998_HPML_KD
 Final Project of COMS6998: High Performance Machine Learning
-Contributor: Pei Tian, Yue Xu, Hongcheng Tian
+Contributors: Pei Tian, Yue Xu, Hongcheng Tian
 
 Knowledge Distillation on different tasks: 
 
@@ -10,7 +10,7 @@ Knowledge Distillation on different tasks:
 - Reasoning: [openai/gsm8k](https://huggingface.co/datasets/openai/gsm8k)
 
 
-### Repo Structure
+### Repo Outline
 
 - **notebook**: notebooks for different task
   - `KD-classification.ipynb`: classification task
@@ -20,4 +20,34 @@ Knowledge Distillation on different tasks:
   - `KD-hf-summ.py`: summarization task
   - `summ_verify.py`: summarization evaluation
 - **utils**
-  - `logger.py`: logging utilities 
+  - `logger.py`: logging utilities
+ 
+### Example Usage
+- For notebook files, please upload it to Google Colab and connect to session with GPU to run it
+- For script files, please follow these command to run it:
+  ```shell
+  git clone https://github.com/Tptrix29/COMS6998_HPML_KD
+
+  # env setup
+  pip install requirements.txt
+
+  cd scripts
+  # training
+  python KD-hf-summ.py
+  # evaluation
+  python summ_verify.py \
+  --model_name_or_path Qwen/Qwen1.5-MoE-A2.7B \
+  --tokenizer_name Qwen/Qwen1.5-MoE-A2.7B \
+  --dataset_name openai/summarize_from_feedback \
+  --dataset_config axis \
+  --split test \
+  --max_input_length 512 \
+  --max_target_length 128 \
+  --batch_size 128
+  ```
+
+### Results
+View it in our W&B report: [wandb report](https://wandb.ai/tptrix29/KD-COMS6998/reports/KD-on-Summarization--VmlldzoxMjYyMDI2NQ)
+
+### W&B Board
+Project Link: [Click Here](https://wandb.ai/tptrix29/KD-COMS6998)

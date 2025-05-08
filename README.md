@@ -4,7 +4,7 @@ Contributor: Pei Tian, Yue Xu, Hongcheng Tian
 
 Knowledge Distillation on different tasks: 
 
-- Classification: [nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue)
+- Classification: [stanfordnlp/sst2](https://huggingface.co/datasets/stanfordnlp/sst2)
 - Language Modeling: [Salesforce/wikitext](https://huggingface.co/datasets/Salesforce/wikitext)
 - Summarization: [openai/summarize_from_feedback](https://huggingface.co/datasets/openai/summarize_from_feedback)
 - Reasoning: [openai/gsm8k](https://huggingface.co/datasets/openai/gsm8k)

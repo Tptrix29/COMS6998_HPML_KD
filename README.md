@@ -50,7 +50,7 @@ Knowledge Distillation on different tasks:
 View details of profiling results and comments in our W&B report: [W&B Report - Efficient Knowledge Distillation](https://wandb.ai/tptrix29/KD-COMS6998/reports/Efficient-Knowledge-Distillation--VmlldzoxMjYyMDI2NQ?accessToken=t6zrnf3ieh6gwnp8atjixk7phndhhxqdnl39ya19avfpq7fzgedoaydze7ttvgyg)
 
 ### Deliverables
-**W&B Board Project Link:** [Project Dashboard]()
+**W&B Board Project Link:** [Project Dashboard](https://wandb.ai/tptrix29/KD-COMS6998)
 
 **Model Checkpoints:**
 Model checkpoints are saved in Google Drive: 
